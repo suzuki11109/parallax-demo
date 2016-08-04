@@ -1,0 +1,80 @@
+.wrapper {
+    display: none;
+}
+
+body {
+    font-family: 'Helvetica';
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+#intro {
+    position: fixed;
+    top: 40%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#intro2 {
+    position: fixed;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#intro2 .name2 {
+    position: fixed;
+    top: 60%;
+    left: 20%;
+    opacity: 0;
+}
+
+#rotate {
+    position: fixed;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#rotate .name3 {
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    opacity: 0;
+    transform-origin: top left;
+}
+
+#bar {
+    position: fixed;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#bar .bar-piece {
+    width: 150px;
+    height: 350px;
+    background-color: #000;
+    opacity: 0;
+}
+
+#bar .bar-piece-1 {
+    position: fixed;
+    top: 100%;
+    left: 20%;
+}
+
+#bar .bar-piece-2 {
+    position: fixed;
+    top: 100%;
+    left: 50%;
+}
+#bar .bar-piece-3 {
+    position: fixed;
+    top: 100%;
+    left: 80%;
+}
